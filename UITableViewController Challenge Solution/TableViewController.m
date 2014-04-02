@@ -70,9 +70,9 @@
     
     if (indexPath.section == 0) {
         cell.textColor = [UIColor redColor];
-        cell.textLabel.text = [NSString stringWithFormat:@"I'm in sections, cell %i", indexPath.row];
+        cell.textLabel.text = [NSString stringWithFormat:@"I'm in section, cell %i", indexPath.row];
     } else if (indexPath.section == 1) {
-        cell.textLabel.text = [NSString stringWithFormat:@"Another sections, cell %i", indexPath.row];
+        cell.textLabel.text = [NSString stringWithFormat:@"Another section, cell %i", indexPath.row];
         cell.textColor = [UIColor blueColor];
     } else {
         cell.textLabel.text = [NSString stringWithFormat:@"Cell %i", indexPath.row];
